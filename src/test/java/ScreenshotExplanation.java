@@ -17,5 +17,6 @@ public class ScreenshotExplanation  {
         TakesScreenshot loginSrc=(TakesScreenshot)driver;
         File loginScreenshot=loginSrc.getScreenshotAs(OutputType.FILE);
         FileUtils.copyFile(loginScreenshot,new File("destination/screenshot.png"));
+        System.out.println("Hi Akhil");
     }
 }

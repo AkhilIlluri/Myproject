@@ -15,7 +15,7 @@ public class caterXpert{
         WebDriver driver = new ChromeDriver();
 
         // Navigate to the login page
-        driver.get("tps://catapps.aquilasoftware.com/CaterXpert.action");
+        driver.get("cdtps://catapps.aquilasoftware.com/CaterXpert.action");
 
         WebElement catererId= driver.findElement(By.id("CatererId"));
         catererId.sendKeys("chefstablecat");
